@@ -1,0 +1,303 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul, ol, li{
+    list-style: none;
+    
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    width: 100vw;
+    background-color:darkgreen;
+    padding: 32px;
+    z-index: 2;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a{
+    color: white;
+    padding: 8px;
+    transition: 1s;
+}
+
+header nav a:hover{
+    background-color:tomato;
+}
+
+#logo{
+    width: 15vh;
+    left: 2%;
+    top: 7%;
+    display: flex;
+    position: absolute;
+}
+
+.grupo{
+    height: 100vh;
+    background-color: tomato;
+}
+
+#amoralinda{
+    background-color: black;
+    background-image: url(./img/turmafundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 3vh;
+    
+}
+#moranguinho{
+    background-color: #D52958;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+
+   
+}
+span{
+    font-size: 170px;
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    color: white;
+    font-style: normal;
+}
+.borda1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 16vh;
+    position: absolute;
+    top: 0;
+}
+#rup{
+    width: 10vw;
+    height: 15vh;
+}
+#lup{
+    width: 10vw;
+    height: 15vh;
+}
+.borda2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 6vh;
+    position: absolute;
+    bottom: 0%;
+}
+#rdown{
+    width: 10vw;
+    height: 15vh;
+}
+#ldown{
+    width: 10vw;
+    height: 15vh;
+}
+#morango{
+    position: absolute;
+    z-index: 1;
+    bottom: 20%;
+}
+.amiga{
+    position: absolute;
+    bottom: 9vh;
+    font-size: 25px;
+    color: white;
+    font-style: normal;
+}
+
+#title{
+    
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title h1{
+    font-size: 16vw;
+    top:-4
+}
+#laranjinha{
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.laranjinhaleft{
+    width: 50%;
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#laranjinhal{
+    width: 30vw;
+    height: 70vh;
+}
+.laranjinharight{
+    width: 50%;
+    position: absolute;
+    height: 100%;
+    right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#laranja{
+    width: 30vw;
+    height: 70vh;
+}
+.infol{
+    position:relative;
+    top: -20%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 25vw;
+}
+.infol h2{
+    font-size: 30px;
+    padding-top: 20px;
+    color: rgb(255, 51, 0) ;
+    text-align: center;
+}
+.infol h1{
+    color: rgb(255, 51, 0);
+    font-style: normal;
+    font-weight: 400;
+    font-family: "Titan One", sans-serif;
+    font-size: 70px;
+}
+#laranja1{
+    position: absolute;
+    bottom: -100%;
+    height: 20vh;
+    width: 10vw;
+    right: 0%;
+}
+#laranja2{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 20vh;
+    width: 10vw;
+}
+#amoralinda{
+    background-color:rgb(57, 2, 135, 0.785);
+}
+
+.imagens{
+    width:100%;
+    text-align: center;
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.infoamora{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: 2vh;
+}
+
+#imagens h2{
+    width: 100%;
+    position: relative;
+    padding: 4vh;
+    color: aliceblue;
+    font-size: 200px;
+}
+
+.titleamora{
+    text-align: center;
+    left: 0;
+    height: 10vh;
+
+
+            
+                
+}
+.titleamora span{
+    color: white;
+    background-color: darkgreen;
+    font-size: 7vh;
+   
+}
+.fundofotos{
+    background-color: darkgreen;
+}
+
+#limao{
+    background-color: #FFEC95;
+    
+   
+}
+
+#limao span{
+    font-size: 4rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh;
+    color: cadetblue
+}
+
+
+#gotinha{
+    width: 40vw;
+    height: 90vh;
+}
+
+.limaoleft{
+    width: 50%;
+    height: 100%;
+}
+
+.limaoright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+    
+.limaoright h2{
+    color: white;
+    background-color:cadetblue;
+}
+.lados{
+    width: 100%;
+    height: 77%;
+    display: flex;
+}
