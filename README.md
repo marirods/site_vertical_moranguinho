@@ -1,6 +1,6 @@
 # Landing Page - Turma da Moranguinho
 
-![]![image](https://github.com/user-attachments/assets/f3686fd6-f9e4-4d25-a21a-59a72cba8174)
+![image](https://github.com/user-attachments/assets/f3686fd6-f9e4-4d25-a21a-59a72cba8174)
 
 
 ---
